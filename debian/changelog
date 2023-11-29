@@ -1,3 +1,17 @@
+hsqldb1.8.0 (1.8.0.10+dfsg-12) unstable; urgency=medium
+
+  * add patch from upstream to
+    avoid execution of spurious command in script or log file
+    (CVE-2023-1183)
+
+ -- Rene Engelhard <rene@debian.org>  Wed, 15 Feb 2023 07:46:52 +0100
+
+hsqldb1.8.0 (1.8.0.10+dfsg-11) unstable; urgency=medium
+
+  * bump dh compat to 7 (closes: #965583) 
+
+ -- Rene Engelhard <rene@debian.org>  Tue, 28 Dec 2021 19:11:06 +0100
+
 hsqldb1.8.0 (1.8.0.10+dfsg-10) unstable; urgency=medium
 
   * add patch from LO to fix build with Java 11 (closes: #913051)
