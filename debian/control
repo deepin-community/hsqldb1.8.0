@@ -3,7 +3,7 @@ Section: oldlibs
 Priority: optional
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
 Uploaders: Rene Engelhard <rene@debian.org>
-Build-Depends: cdbs (>= 0.4.39), debhelper (>= 5), default-jdk, ant (>= 1.7), libservlet3.1-java, maven-repo-helper, javahelper
+Build-Depends: cdbs (>= 0.4.39), debhelper (>= 7), default-jdk, ant (>= 1.7), libservlet3.1-java, maven-repo-helper, javahelper
 Standards-Version: 3.7.2
 
 Package: libhsqldb1.8.0-java
